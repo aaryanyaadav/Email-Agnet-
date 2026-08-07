@@ -1,0 +1,41 @@
+# Environment & Secret files
+.env
+*.env
+!.env.example
+
+# Google OAuth Credentials & Tokens
+credentials.json
+token.json
+client_secret*.json
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# SQLite Database
+*.db
+*.sqlite
+*.sqlite3
+placement_agent.db
+
+# Logs & Runtime Output
+logs/
+*.log
+
+# IDE & OS Metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
